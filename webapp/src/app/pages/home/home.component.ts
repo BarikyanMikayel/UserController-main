@@ -22,9 +22,6 @@ export class AppPagesHomeComponent {
   RegisterActive: boolean = false;
   loginBoxHeight: number = 200;
 
-
-
-
   constructor(private route: Router, private apc: AppComponent) {
     this.apc.IsHomePage = true;
 
@@ -84,8 +81,5 @@ export class AppPagesHomeComponent {
       this.loginBoxHeight = 200;
       this.RegisterActive = false;
     }
-
-
-
   }
 }
